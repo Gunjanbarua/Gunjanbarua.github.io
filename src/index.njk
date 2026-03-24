@@ -138,6 +138,8 @@ title: Portfolio
               <p class="edu-period">{{ edu.period }}</p>
               {% if edu.dissertation %}
               <p class="edu-diss"><em>Dissertation:</em> {{ edu.dissertation | safe }}</p>
+              {% elif edu.thesis %}
+              <p class="edu-diss"><em>Thesis:</em> {{ edu.thesis | safe }}</p>
               {% endif %}
             </div>
           </div>
