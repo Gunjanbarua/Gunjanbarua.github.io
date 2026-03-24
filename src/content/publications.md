@@ -24,13 +24,13 @@ publications:
   - title: "Precision Forestry: Using Artificial Intelligence and LiDAR to inform thinning in Pinus taeda plantations – a case study"
     journal: "Journal of Forestry"
     year: 2025
-    status: "In Review"
+    status: "In Press"
     authors: "Platt, E., Carter, D., Albaugh, T.J., Cook, R.L., Campoe, O., Rubilar, R., Barua, G., Sumnall, M.J."
 
   - title: "Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering"
     journal: "Natural Hazards"
     year: 2025
-    status: "In Review"
+    status: "In Press"
     authors: "Barua, G., Pires, M., Kim, J."
     url: "(Link to the paper)[https://dx.doi.org/10.2139/ssrn.5366489]"
 
@@ -42,14 +42,14 @@ publications:
     url: "(Link to the paper)[https://ssrn.com/abstract=6168728]"
 
   - title: "Estimating Pinus taeda (L.) Timber Volume with Multi-Temporal SAR-Optical Fusion and Supervised Learning Techniques"
-    journal: "International Journal of Applied Earth Observation and Geoinformation"
+    journal: "International Journal of Remote Sensing"
     year: 2025
     status: "In Review"
     authors: "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M."
     url: "(Link to the paper)[https://ssrn.com/abstract=6228779]"
 
   - title: "Single-date LiDAR acquisition accurately predicts the yield of Pinus taeda (L.) over a 7-year timespan using machine learning"
-    journal: "Journal of Environmental Informatics"
+    journal: "Journal of Forestry Research"
     year: 2025
     status: "In Review"
     authors: "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M."
