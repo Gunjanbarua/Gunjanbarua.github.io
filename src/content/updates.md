@@ -1,12 +1,18 @@
 ---
 updates:
+  - title: "My paper - 'Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering' accepted for publication at the **Natural Hazards** journal"
+    date: "2026-03-23"
+
+  - title: "My paper, titled 'Single-date LiDAR acquisition accurately predicts the yield of Pinus taeda (L.) over a 7-year timespan using machine learning' submitted to the **Journal of Forestry Research**"
+    date: "2026-03-23"
+
   - title: "Presented my research titled 'Scalable Yield Forecasting for Loblolly Pine Plantations Using UAV-LiDAR and Machine Learning' at Remote Sensing seminar at Virginia Tech."
     date: "2026-02-23"
 
   - title: "Paper on Mangrove species classification and salinity tolerance mapping in the mangrove region of Bangladesh using Google Earth Embedding dataset has been submitted to Discover Forests. The [Preprint](https://ssrn.com/abstract=6168728) is available online."
     date: "2026-02-20"
 
-  - title: "Paper on plot-based yield prediction of Loblolly Pine using temporal open-source Sentinel-1 and 2 dataset submitted to International Journal of Applied Earth Observation and Geoinformation. The [Preprint](https://ssrn.com/abstract=6228779) is available online."
+  - title: "Paper on plot-based yield prediction of Loblolly Pine using temporal open-source Sentinel-1 and 2 dataset submitted to the International Journal of Remote Sensing. The [Preprint](https://ssrn.com/abstract=6228779) is available online."
     date: "2026-02-20"
 
   - title: "Got featured on Forest Productivity Cooperative's quaterly newsletter. [Read it here](https://www.forestproductivity.org/graduate-student-highlights/gunjan-barua)"
