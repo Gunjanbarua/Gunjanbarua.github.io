@@ -495,6 +495,71 @@ ul {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+
+/* ── Dissertation Dashboard Card ── */
+.dissertation-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid rgba(45, 212, 160, 0.25);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 360px;
+}
+
+.dissertation-card:hover {
+  border-color: rgba(45, 212, 160, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(45, 212, 160, 0.12);
+}
+
+.dissertation-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 0.65rem 0.9rem;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.dissertation-card-arrow {
+  margin-left: auto;
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: transform 0.2s ease;
+}
+
+.dissertation-card:hover .dissertation-card-arrow {
+  transform: translateX(3px);
+}
+
+.dissertation-preview-wrap {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #0d1117;
+}
+
+.dissertation-iframe {
+  width: 1280px;
+  height: 800px;
+  border: none;
+  transform: scale(0.28);
+  transform-origin: top left;
+  pointer-events: none;
+}
+
+.dissertation-preview-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 55%, rgba(13, 17, 23, 0.6) 100%);
 }
 
 .social-link {
