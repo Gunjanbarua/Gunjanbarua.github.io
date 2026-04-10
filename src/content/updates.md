@@ -1,6 +1,9 @@
 ---
 updates:
-  - title: "My paper - 'Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering' accepted for publication at the **Natural Hazards** journal"
+  - title: Presented a poster at the [OGIS Symposium](https://sites.google.com/vt.edu/ogis/2026-ogis-symposium?authuser=0) based on the 2nd chapter of my dissertation, titled "Temporal Transferability Assessment of Individual Tree Volume in *Pinus taeda* (L.) Using Single-Date UAV-LiDAR and Machine Learning", and won the 2nd Prize!
+    date: "2026-04-10"
+
+- title: "My paper - 'Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering' accepted for publication at the **Natural Hazards** journal"
     date: "2026-03-23"
 
   - title: "My paper, titled 'Single-date LiDAR acquisition accurately predicts the yield of Pinus taeda (L.) over a 7-year timespan using machine learning' submitted to the **Journal of Forestry Research**"
