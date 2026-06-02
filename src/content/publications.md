@@ -24,15 +24,16 @@ publications:
   - title: "Precision Forestry: Using Artificial Intelligence and LiDAR to inform thinning in Pinus taeda plantations – a case study"
     journal: "Journal of Forestry"
     year: 2025
-    status: "In Press"
+    status: "Published"
     authors: "Platt, E., Carter, D., Albaugh, T.J., Cook, R.L., Campoe, O., Rubilar, R., Barua, G., Sumnall, M.J."
+    url: "https://link.springer.com/article/10.1007/s44392-026-00089-6"
 
   - title: "Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering"
     journal: "Natural Hazards"
     year: 2025
-    status: "In Press"
+    status: "Published"
     authors: "Barua, G., Pires, M., Kim, J."
-    url: "https://dx.doi.org/10.2139/ssrn.5366489"
+    url: "https://link.springer.com/article/10.1007/s11069-026-08129-2"
 
   - title: "Feature-based Transfer Learning with Pretrained AlphaEarth Embeddings for Mangrove Forest Mapping in Bangladesh"
     journal: "Discover Forests"

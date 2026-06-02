@@ -1,5 +1,8 @@
 ---
 updates:
+  - title: Defended my PhD dissertation titled "Advancing Yield Predictions in Pinus taeda (L.): An Artificial Intelligence (AI) Approach Leveraging LiDAR-derived Individual Tree Crown (ITC) Metrics, Competition Indices (CI), and Satellite Remote Sensing Indices" at the Fralin Auditorium. Officially a doctorate! [Read the update](https://www.linkedin.com/feed/update/urn:li:activity:7449897798621315073/)
+    date: "2026-04-13"
+  
   - title: Presented a poster at the [OGIS Symposium](https://sites.google.com/vt.edu/ogis/2026-ogis-symposium?authuser=0) based on the 2nd chapter of my dissertation, titled "Temporal Transferability Assessment of Individual Tree Volume in *Pinus taeda* (L.) Using Single-Date UAV-LiDAR and Machine Learning", and won the 2nd Prize!
     date: "2026-04-10"
 
