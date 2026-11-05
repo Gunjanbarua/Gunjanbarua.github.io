@@ -1,0 +1,16 @@
+<section class="section" id="writing" aria-labelledby="writing-title">
+  <div class="wrap">
+    <div class="eyebrow">Writing</div>
+    <h2 class="section-title" id="writing-title">Notes and essays</h2>
+    <div class="grid-3">
+      {%- for post in collections.posts | limit(3) %}
+      <article class="card post reveal">
+        <time datetime="{{ post.date.toISOString() }}">{{ post.date | dateDisplay }}</time>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.summary }}</p>
+        {%- if post.data.tags %}<div class="chips">{% for t in post.data.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>{% endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

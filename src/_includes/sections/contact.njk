@@ -1,0 +1,12 @@
+{%- from "icons.njk" import linkedin, mail -%}
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="eyebrow">Contact</div>
+    <h2 class="section-title" id="contact-title">Let's talk</h2>
+    <p class="lead">I'm always glad to talk about environmental data, digital MRV, carbon accounting and building products in this space.</p>
+    <div class="contact-cards">
+      <a class="card contact-card" href="mailto:{{ site.email }}">{{ mail() }}<div><small>Email</small><span>{{ site.email }}</span></div></a>
+      <a class="card contact-card" href="{{ site.linkedin }}" target="_blank" rel="noopener">{{ linkedin() }}<div><small>LinkedIn</small><span>{{ site.linkedinLabel }}</span></div></a>
+    </div>
+  </div>
+</section>

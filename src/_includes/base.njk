@@ -1,3 +1,4 @@
+{%- from "icons.njk" import linkedin, mail -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,107 +17,99 @@
   <meta name="keywords" content="{{ site.keywords }}" />
   <meta name="author" content="{{ site.author }}" />
   <meta name="google-site-verification" content="hha5XpHKSP8P3DEXtehBId6YRDICw-IlB2HCp5pqZmw" />
-  <title>{% if title %}{{ title }} – {% endif %}{{ site.title }}</title>
+  <title>{% if title %}{{ title }} – {{ site.shortTitle }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <script>document.documentElement.classList.add('js');</script>
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Google Fonts -->
+  <script type="application/ld+json">{{ {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": site.author,
+    "jobTitle": "Digital MRV Solutions Specialist",
+    "worksFor": { "@type": "Organization", "name": "Verra" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Virginia Tech" },
+    "url": site.url,
+    "sameAs": [site.linkedin]
+  } | dump | safe }}</script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- ═══════════════════════════════════════════════
-       RIGHT-SIDE VERTICAL NAVIGATION
-  ═══════════════════════════════════════════════ -->
-  <nav id="side-nav" aria-label="Section navigation">
-    <ul>
-      <li>
-        <a href="#home" class="nav-dot active" data-section="home" aria-label="Home">
-          <span class="dot"></span>
-          <span class="label">Home</span>
-        </a>
-      </li>
-      <li>
-        <a href="#education" class="nav-dot" data-section="education" aria-label="Education">
-          <span class="dot"></span>
-          <span class="label">Education</span>
-        </a>
-      </li>
-      <li>
-        <a href="#experience" class="nav-dot" data-section="experience" aria-label="Experience">
-          <span class="dot"></span>
-          <span class="label">Experience</span>
-        </a>
-      </li>
-      <li>
-        <a href="#publications" class="nav-dot" data-section="publications" aria-label="Publications">
-          <span class="dot"></span>
-          <span class="label">Publications</span>
-        </a>
-      </li>
-      <li>
-        <a href="#gallery" class="nav-dot" data-section="gallery" aria-label="Gallery">
-          <span class="dot"></span>
-          <span class="label">Gallery</span>
-        </a>
-      </li>
-      <li>
-        <a href="#contact" class="nav-dot" data-section="contact" aria-label="Contact">
-          <span class="dot"></span>
-          <span class="label">Contact</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
+{% if bare %}
+  <header class="page-head">
+    <div class="wrap">
+      <a class="wordmark" style="padding:0" href="{{ '/' | url }}">{{ site.author }}</a>
+      <a href="{{ '/' | url }}">← Back to home</a>
+    </div>
+  </header>
+{% else %}
+  <aside class="rail">
+    <a class="wordmark" href="#home">{{ site.author }}</a>
+    <nav class="rail-links" aria-label="Sections">
+      {%- for item in nav %}{% if not item.feature or site.features[item.feature] %}
+      <a href="#{{ item.id }}" data-section="{{ item.id }}">{{ item.label }}</a>
+      {%- endif %}{% endfor %}
+    </nav>
+    <div class="rail-icons">
+      <a class="icon-link" href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{ linkedin() }}</a>
+      <a class="icon-link" href="mailto:{{ site.email }}" aria-label="Email">{{ mail() }}</a>
+    </div>
+  </aside>
 
-  <!-- ═══════════════════════════════════════════════
-       HAMBURGER MENU (mobile)
-  ═══════════════════════════════════════════════ -->
-  <button id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+  <header class="topbar">
+    <a class="wordmark" style="padding:0" href="#home">{{ site.author }}</a>
+    <button class="menu-btn" id="menu-open" aria-expanded="false" aria-controls="menu">Menu</button>
+  </header>
 
-  <!-- Mobile nav drawer -->
-  <div id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu">
-    <button id="mobile-nav-close" aria-label="Close navigation">&times;</button>
-    <ul>
-      <li><a href="#home" class="mobile-nav-link">Home</a></li>
-      <li><a href="#education" class="mobile-nav-link">Education</a></li>
-      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
-      <li><a href="#publications" class="mobile-nav-link">Publications &amp; Awards</a></li>
-      <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
-      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
-    </ul>
+  <div class="menu-overlay" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+    <div class="menu-head">
+      <span class="wordmark" style="padding:0">{{ site.author }}</span>
+      <button class="menu-btn" id="menu-close">Close</button>
+    </div>
+    <nav aria-label="Sections (menu)">
+      {%- for item in nav %}{% if not item.feature or site.features[item.feature] %}
+      <a href="#{{ item.id }}">{{ item.label }}</a>
+      {%- endif %}{% endfor %}
+    </nav>
+    <div class="rail-icons">
+      <a class="icon-link" href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{ linkedin() }}</a>
+      <a class="icon-link" href="mailto:{{ site.email }}" aria-label="Email">{{ mail() }}</a>
+    </div>
   </div>
-  <div id="mobile-overlay"></div>
+{% endif %}
 
-  <!-- ═══════════════════════════════════════════════
-       SNAP SCROLL CONTAINER
-  ═══════════════════════════════════════════════ -->
-  <main id="snap-container">
+  <main id="main">
     {{ content | safe }}
   </main>
 
-  <!-- Lightbox overlay -->
-  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
-    <button id="lightbox-close" aria-label="Close image">&times;</button>
-    <button id="lightbox-prev" aria-label="Previous image">&#10094;</button>
-    <button id="lightbox-next" aria-label="Next image">&#10095;</button>
-    <div id="lightbox-img-wrap">
-      <img id="lightbox-img" src="" alt="" />
-      <p id="lightbox-caption"></p>
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Gunjan Barua</span><span>·</span><span>Based in Pennsylvania, USA</span><span>·</span><span>Views are my own.</span>
     </div>
-  </div>
+  </footer>
 
-  <script src="{{ '/js/main.js' | url }}"></script>
+{% if not bare %}
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-btn lb-close" id="lb-close" aria-label="Close image">&times;</button>
+    <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lb-btn lb-next" id="lb-next" aria-label="Next image">&#8250;</button>
+    <figure><img id="lb-img" src="" alt="" /><figcaption id="lb-cap"></figcaption></figure>
+  </div>
+{% endif %}
+
+  <script src="{{ '/js/main.js' | url }}" defer></script>
 </body>
 </html>

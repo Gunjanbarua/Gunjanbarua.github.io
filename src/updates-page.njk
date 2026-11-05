@@ -1,41 +1,24 @@
 ---
 layout: base.njk
-title: All Updates
+title: Research updates
 permalink: /updates/
+bare: true
 ---
-
-<section class="snap-section overflow-section" id="all-updates" aria-label="All Updates">
-  <div class="section-inner">
-    <div class="section-header">
-      <span class="section-tag">News & Activity</span>
-      <h2 class="section-title">All Updates</h2>
-    </div>
-
-    <div class="updates-card updates-card--full">
-      <ul class="updates-list updates-list--full">
-        {% for item in updates %}
-        <li class="update-item">
-          <time class="update-date" datetime="{{ item.date }}">
-            {% set d = item.date %}
-            {{ item.date | dateDisplay }}
-          </time>
-          <div class="update-body">
-            <span class="update-title">{{ item.title | markdownify | safe }}</span>
-            {% if item.description %}
-            <p class="update-desc">{{ item.description | markdownify | safe }}</p>
-            {% endif %}
-          </div>
-        </li>
-        {% else %}
-        <li class="update-item">
-          <span class="update-title">No updates yet.</span>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <div class="updates-back">
-        <a href="/" class="btn btn-ghost">← Back to Home</a>
-      </div>
-    </div>
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Archive</div>
+    <h1 class="section-title">Research updates</h1>
+    <p class="lead">News, talks, awards and publications, newest first.</p>
+    <ul class="updates-list">
+      {%- for item in updates %}
+      <li>
+        <time datetime="{{ item.date }}">{{ item.date | dateDisplay }}</time>
+        <div>{{ item.title | markdownify | safe }}{% if item.description %}{{ item.description | markdownify | safe }}{% endif %}</div>
+      </li>
+      {%- else %}
+      <li><p>No updates yet.</p></li>
+      {%- endfor %}
+    </ul>
+    <p style="margin-top:32px"><a href="{{ '/' | url }}">← Back to home</a></p>
   </div>
 </section>

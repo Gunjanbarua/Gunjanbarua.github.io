@@ -1,0 +1,24 @@
+<section class="section" id="work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="eyebrow">Selected work</div>
+    <h2 class="section-title" id="work-title">Building trusted environmental data</h2>
+    <div class="grid-2">
+      {%- for w in work %}
+      <article class="card work-card reveal" id="{{ w.id }}">
+        <p class="work-context">{{ w.context }}</p>
+        <h3>{% if w.titleUrl %}<a href="{{ w.titleUrl }}" target="_blank" rel="noopener">{{ w.title }}</a>{% else %}{{ w.title }}{% endif %}</h3>
+        <h4>Challenge</h4>
+        <p class="challenge">{{ w.challenge }}</p>
+        <h4>What I did</h4>
+        <ul class="dots">{% for d in w.did %}<li>{{ d | safe }}</li>{% endfor %}</ul>
+        <h4>Outcome</h4>
+        <ul class="dots">{% for o in w.outcome %}<li>{{ o | safe }}</li>{% endfor %}</ul>
+        {%- if w.button %}
+        <a class="btn btn-outline" href="{{ w.button.href }}" target="_blank" rel="noopener">{{ w.button.label }}</a>
+        {%- endif %}
+        <div class="chips">{% for t in w.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

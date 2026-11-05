@@ -1,7 +1,16 @@
 {
-    "title": "Gunjan Barua – Geospatial Data Scientist",
-    "description": "Portfolio of Gunjan Barua – Ph.D. Candidate at Virginia Tech specializing in precision forestry, LiDAR remote sensing, and AI-driven forest analytics.",
-    "url": "https://Gunjanbarua.github.io",
-    "author": "Gunjan Barua",
-    "keywords": "Gunjan Barua, geospatial data scientist, LiDAR, remote sensing, AI, forestry, Virginia Tech, CarboBon"
+  "title": "Gunjan Barua — Technical Product Leadership for Environmental Intelligence",
+  "shortTitle": "Gunjan Barua",
+  "description": "Gunjan Barua connects Earth observation, AI and carbon accounting to build trusted, auditable environmental data platforms. Digital MRV at Verra · Ph.D., Virginia Tech.",
+  "keywords": "Gunjan Barua, environmental intelligence, digital MRV, dMRV, carbon accounting, GHG, Earth observation, remote sensing, LiDAR, AI, product management, Verra",
+  "url": "https://Gunjanbarua.github.io",
+  "author": "Gunjan Barua",
+  "email": "gunjanbarua9@gmail.com",
+  "linkedin": "https://linkedin.com/in/gunjanbarua/",
+  "linkedinLabel": "linkedin.com/in/gunjanbarua",
+  "dissertationUrl": "https://gunjan-phd-dissertation.streamlit.app/",
+  "ogImage": "/images/og-card.png",
+  "features": {
+    "writing": false
+  }
 }

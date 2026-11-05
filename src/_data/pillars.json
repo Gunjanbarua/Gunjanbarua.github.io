@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Carbon & GHG accounting",
+    "description": "Turning carbon methodologies and accounting standards into digital systems that make climate claims auditable.",
+    "examples": [
+      {
+        "label": "Digital MRV platforms at Verra",
+        "href": "#work-methodologies"
+      },
+      {
+        "label": "Data-provider integration for forest carbon",
+        "href": "#work-dsp"
+      },
+      {
+        "label": "Digital MRV system and Scope 1 & 2 emissions API at CarboBon",
+        "href": "#work-carbobon"
+      }
+    ]
+  },
+  {
+    "title": "Earth observation & AI",
+    "description": "Building models that turn LiDAR, radar and optical imagery into decision-grade measurements of forests and landscapes.",
+    "examples": [
+      {
+        "label": "AI yield forecasting from UAV-LiDAR",
+        "href": "#work-research"
+      },
+      {
+        "label": "SAR–optical fusion for timber volume",
+        "href": "https://www.tandfonline.com/doi/full/10.1080/01431161.2026.2735047",
+        "external": true
+      },
+      {
+        "label": "Mangrove mapping with AlphaEarth embeddings",
+        "href": "https://ssrn.com/abstract=6168728",
+        "external": true
+      }
+    ]
+  },
+  {
+    "title": "Environmental risk intelligence",
+    "description": "Applying spatiotemporal analytics to understand how environmental risks shift across places and over time.",
+    "examples": [
+      {
+        "label": "Re-evaluating U.S. wildfire risk (Natural Hazards)",
+        "href": "https://link.springer.com/article/10.1007/s11069-026-08129-2",
+        "external": true
+      },
+      {
+        "label": "High-resolution urban heat modeling (CaGIS)",
+        "href": "https://doi.org/10.1080/15230406.2023.2267418",
+        "external": true
+      }
+    ]
+  }
+]
