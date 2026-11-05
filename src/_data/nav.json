@@ -1,0 +1,39 @@
+[
+  {
+    "id": "home",
+    "label": "Home"
+  },
+  {
+    "id": "focus",
+    "label": "Focus"
+  },
+  {
+    "id": "work",
+    "label": "Work"
+  },
+  {
+    "id": "writing",
+    "label": "Writing",
+    "feature": "writing"
+  },
+  {
+    "id": "experience",
+    "label": "Experience"
+  },
+  {
+    "id": "research",
+    "label": "Research"
+  },
+  {
+    "id": "gallery",
+    "label": "Gallery"
+  },
+  {
+    "id": "about",
+    "label": "About"
+  },
+  {
+    "id": "contact",
+    "label": "Contact"
+  }
+]

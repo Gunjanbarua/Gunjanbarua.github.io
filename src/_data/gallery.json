@@ -1,0 +1,102 @@
+[
+  {
+    "src": "/images/gallery/guest_lecture.jpg",
+    "width": 1918,
+    "height": 1052,
+    "caption": "Guest lecture at the Department of Geography, Virginia Tech",
+    "alt": "Gunjan Barua delivering a guest lecture at the Department of Geography, Virginia Tech",
+    "year": 2025,
+    "featured": true,
+    "order": 1
+  },
+  {
+    "src": "/images/gallery/fpc_meeting_2025.jpg",
+    "width": 2048,
+    "height": 1536,
+    "caption": "FPC Annual Meeting 2025",
+    "alt": "Gunjan Barua presenting a research poster at the Forest Productivity Cooperative Annual Meeting 2025",
+    "year": 2025,
+    "featured": true,
+    "order": 2
+  },
+  {
+    "src": "/images/gallery/asprs.jpg",
+    "width": 1536,
+    "height": 2048,
+    "caption": "ASPRS Annual Conference at Geo Week 2025",
+    "alt": "Gunjan Barua presenting at the ASPRS Annual Conference at Geo Week 2025",
+    "year": 2025,
+    "featured": true,
+    "order": 3
+  },
+  {
+    "src": "/images/gallery/apsaf.jpg",
+    "width": 1528,
+    "height": 1536,
+    "caption": "APSAF Annual Conference 2025",
+    "alt": "Gunjan Barua presenting at the APSAF Annual Conference in Wilmington, NC",
+    "year": 2025,
+    "featured": true,
+    "order": 4
+  },
+  {
+    "src": "/images/gallery/brsaf.jpg",
+    "width": 2048,
+    "height": 1536,
+    "caption": "Blue Ridge SAF Chapter Meeting 2025",
+    "alt": "Gunjan Barua presenting at the Blue Ridge SAF Chapter Meeting",
+    "year": 2025,
+    "featured": true,
+    "order": 5
+  },
+  {
+    "src": "/images/gallery/frec_seminar.jpg",
+    "width": 4000,
+    "height": 3000,
+    "caption": "FREC Spring Seminar 2025",
+    "alt": "Gunjan Barua presenting at the Virginia Tech FREC Spring Seminar",
+    "year": 2025,
+    "featured": true,
+    "order": 6
+  },
+  {
+    "src": "/images/gallery/ogis.jpg",
+    "width": 1536,
+    "height": 2048,
+    "caption": "OGIS Symposium 2025",
+    "alt": "Gunjan Barua beside a research poster at the OGIS Symposium",
+    "year": 2025,
+    "featured": false,
+    "order": 7
+  },
+  {
+    "src": "/images/gallery/ogis_2022.jpg",
+    "width": 1536,
+    "height": 2048,
+    "caption": "OGIS Symposium 2022",
+    "alt": "Gunjan Barua presenting a poster at the OGIS Symposium 2022",
+    "year": 2022,
+    "featured": false,
+    "order": 8
+  },
+  {
+    "src": "/images/gallery/cagis.jpg",
+    "width": 4032,
+    "height": 3024,
+    "caption": "CaGIS presentation",
+    "alt": "Gunjan Barua giving a presentation at a CaGIS event",
+    "year": null,
+    "featured": false,
+    "order": 9
+  },
+  {
+    "src": "/images/gallery/ms_thesis.jpg",
+    "width": 768,
+    "height": 1024,
+    "caption": "M.S. thesis defense",
+    "alt": "Gunjan Barua at his M.S. thesis defense at Virginia Tech",
+    "year": 2023,
+    "featured": false,
+    "order": 10
+  }
+]

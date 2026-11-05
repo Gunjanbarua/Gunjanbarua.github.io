@@ -1,0 +1,47 @@
+<section class="section" id="experience" aria-labelledby="exp-title">
+  <div class="wrap">
+    <div class="eyebrow">Experience</div>
+    <h2 class="section-title" id="exp-title">Experience</h2>
+
+    <div class="timeline">
+      {%- for job in experience.recent %}
+      <article class="job">
+        <h3>{{ job.title }}</h3>
+        <p class="job-meta"><span class="job-org">{% if job.orgUrl %}<a href="{{ job.orgUrl }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</span> · {{ job.period }}{% if job.location %} · {{ job.location }}{% endif %}</p>
+        <ul class="dots">{% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+      </article>
+      {%- endfor %}
+    </div>
+
+    <details class="earlier">
+      <summary>Earlier career (2015–2023)</summary>
+      <div class="earlier-body">
+        <p>{{ experience.earlierSummary }}</p>
+        {%- for job in experience.earlier %}
+        <div class="earlier-item">
+          <h4>{{ job.title }}</h4>
+          <p class="job-meta">{{ job.org }} · {{ job.period }}</p>
+          <p>{{ job.description }}</p>
+        </div>
+        {%- endfor %}
+      </div>
+    </details>
+
+    <h3 class="sub-title">Education</h3>
+    <div class="edu-row" style="margin-top:0">
+      {%- for e in experience.education %}
+      <div class="edu-item"><strong>{{ e.degree }}</strong><span>{{ e.institution }} ({{ e.year }})</span></div>
+      {%- endfor %}
+    </div>
+
+    <h3 class="sub-title">Skills</h3>
+    <div>
+      {%- for g in experience.skills %}
+      <div class="skill-group">
+        <h4>{{ g.group }}</h4>
+        <div class="chips">{% for i in g.items %}<span class="chip">{{ i }}</span>{% endfor %}</div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

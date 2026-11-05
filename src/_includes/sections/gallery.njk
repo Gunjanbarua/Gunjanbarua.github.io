@@ -1,0 +1,18 @@
+<section class="section" id="gallery" aria-labelledby="gallery-title">
+  <div class="wrap collapsible" id="gallery-block">
+    <div class="eyebrow">Gallery</div>
+    <h2 class="section-title" id="gallery-title">In the field and on stage</h2>
+    <div class="gallery-grid" id="gallery-grid">
+      {%- for g in gallery | sort(false, false, "order") %}
+      <figure class="shot{% if not g.featured %} is-extra{% endif %}">
+        <button type="button" data-src="{{ g.src | url }}" data-caption="{{ g.caption }}" data-alt="{{ g.alt }}" aria-label="View larger: {{ g.caption }}">
+          <img src="{{ g.src | url }}" alt="{{ g.alt }}" width="{{ g.width }}" height="{{ g.height }}" loading="lazy" />
+        </button>
+        <a href="{{ g.src | url }}" target="_blank" rel="noopener"><img src="{{ g.src | url }}" alt="{{ g.alt }}" width="{{ g.width }}" height="{{ g.height }}" loading="lazy" /></a>
+        <figcaption>{{ g.caption }}{% if g.year %} · {{ g.year }}{% endif %}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+    <button class="toggle" type="button" data-toggle="#gallery-block" data-more="View all photos ({{ gallery | length }})" data-less="Show fewer photos" aria-expanded="false">View all photos ({{ gallery | length }})</button>
+  </div>
+</section>

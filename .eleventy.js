@@ -7,6 +7,10 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
+  // Source markdown that should not render as pages
+  eleventyConfig.ignores.add("src/content/**");
+  eleventyConfig.ignores.add("src/images/**/*.md");
+
   // Pass-through copies
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
@@ -15,21 +19,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/content/images");
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
 
-  // NOTE: Collections using individual markdown files have been replaced by
-  // _data/*.js loaders that read from single consolidated markdown files.
-  // The collections below are kept for backward compatibility but are empty
-  // since the individual files have been removed.
-
-  // Gallery still uses individual files
-  eleventyConfig.addCollection("gallery", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("src/content/gallery/*.md");
+  // Writing posts (shown only as summaries in the #writing section)
+  eleventyConfig.addCollection("posts", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/*.md").sort((a, b) => b.date - a.date);
   });
 
   // Filters
   eleventyConfig.addFilter("dateDisplay", function (date) {
     if (!date) return "";
     const d = new Date(date);
-    return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+  });
+
+  // Bold the site owner in an author list (input is escaped first)
+  eleventyConfig.addFilter("boldMe", function (str) {
+    if (!str) return "";
+    const esc = String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return esc.replace(/Barua, G\./g, "<strong>Barua, G.</strong>");
   });
 
   eleventyConfig.addFilter("limit", function (arr, limit) {

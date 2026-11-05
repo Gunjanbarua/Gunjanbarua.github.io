@@ -1,0 +1,51 @@
+<section class="section" id="research" aria-labelledby="research-title">
+  <div class="wrap">
+    <div class="eyebrow">Research</div>
+    <h2 class="section-title" id="research-title">Research &amp; publications</h2>
+    <p class="lead">My research applies AI to remote sensing for forests, environmental risk and urban climate. It is the scientific foundation for my product work.</p>
+    <div class="link-row">
+      <a href="{{ site.dissertationUrl }}" target="_blank" rel="noopener">Dissertation dashboard</a>
+      <a href="{{ '/updates/' | url }}">Research updates archive</a>
+    </div>
+
+    <h3 class="sub-title">Publications</h3>
+    <div class="collapsible" id="pubs-block">
+      <ul class="pubs">
+        {%- for p in publications %}
+        <li class="{% if not p.featured %}is-extra{% endif %}">
+          <div class="pub-title">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}<span class="pill {% if p.status == 'Published' %}pill-published{% endif %}">{{ p.status }}</span></div>
+          <p class="pub-meta">{{ p.authors | boldMe | safe }}</p>
+          <p class="pub-meta"><em>{{ p.venue }}</em> · {{ p.year }}</p>
+        </li>
+        {%- endfor %}
+      </ul>
+      <button class="toggle" type="button" data-toggle="#pubs-block" data-more="Show all publications ({{ publications | length }})" data-less="Show fewer publications" aria-expanded="false">Show all publications ({{ publications | length }})</button>
+    </div>
+
+    <h3 class="sub-title">Talks</h3>
+    <div class="collapsible" id="talks-block">
+      <ul class="talks">
+        {%- for t in talks %}
+        <li class="row-year{% if not t.featured %} is-extra{% endif %}">
+          <span class="yr">{{ t.date }}</span>
+          <div><div class="talk-title">{{ t.title }}</div><p class="pub-meta">{{ t.event }}{% if t.location %} · {{ t.location }}{% endif %}</p></div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <button class="toggle" type="button" data-toggle="#talks-block" data-more="Show all talks ({{ talks | length }})" data-less="Show fewer talks" aria-expanded="false">Show all talks ({{ talks | length }})</button>
+    </div>
+
+    <h3 class="sub-title">Awards</h3>
+    <div class="collapsible" id="awards-block">
+      <ul class="awards">
+        {%- for a in awards %}
+        <li class="row-year{% if not a.featured %} is-extra{% endif %}">
+          <span class="yr">{{ a.year }}</span>
+          <div><div class="talk-title">{{ a.title }}</div><p class="pub-meta">{{ a.org }}</p></div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <button class="toggle" type="button" data-toggle="#awards-block" data-more="Show all awards ({{ awards | length }})" data-less="Show fewer awards" aria-expanded="false">Show all awards ({{ awards | length }})</button>
+    </div>
+  </div>
+</section>

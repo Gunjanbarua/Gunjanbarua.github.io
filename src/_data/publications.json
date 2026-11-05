@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Estimating Pinus taeda (L.) Timber Volume with Multi-Temporal SAR-Optical Fusion and Supervised Learning Techniques",
+    "authors": "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M.",
+    "venue": "International Journal of Remote Sensing",
+    "year": 2026,
+    "status": "Published",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01431161.2026.2735047",
+    "featured": true
+  },
+  {
+    "title": "Predicting yield of Pinus taeda (L.) using LiDAR data in random forest and support vector machine models",
+    "authors": "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M.",
+    "venue": "Forest Ecology and Management",
+    "year": 2025,
+    "status": "Published",
+    "url": "https://doi.org/10.1016/j.foreco.2025.122977",
+    "featured": true
+  },
+  {
+    "title": "Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering",
+    "authors": "Barua, G., Pires, M., Kim, J.",
+    "venue": "Natural Hazards",
+    "year": 2025,
+    "status": "Published",
+    "url": "https://link.springer.com/article/10.1007/s11069-026-08129-2",
+    "featured": true
+  },
+  {
+    "title": "Precision Forestry: Using Artificial Intelligence and LiDAR to inform thinning in Pinus taeda plantations – a case study",
+    "authors": "Platt, E., Carter, D., Albaugh, T.J., Cook, R.L., Campoe, O., Rubilar, R., Barua, G., Sumnall, M.J.",
+    "venue": "Journal of Forestry",
+    "year": 2025,
+    "status": "Published",
+    "url": "https://link.springer.com/article/10.1007/s44392-026-00089-6",
+    "featured": true
+  },
+  {
+    "title": "Urban Thermal Map Design Considerations: Color, Shading, and Resolution",
+    "authors": "Barua, G., Pingel, T.J., Lim, T.C.",
+    "venue": "Cartography and Geographic Information Science",
+    "year": 2023,
+    "status": "Published",
+    "url": "https://doi.org/10.1080/15230406.2023.2267418",
+    "featured": false
+  },
+  {
+    "title": "Solid Waste Management Scenario in Public University Campuses of Bangladesh: A Comparative Study between KUET and Khulna University",
+    "authors": "Roy, T.K., Ekram, K.M.M., Barua, G., Hossain, S.T., Akter, F.",
+    "venue": "Waste Management and Resource Efficiency (Springer)",
+    "year": 2019,
+    "status": "Published",
+    "url": "https://doi.org/10.1007/978-981-10-7290-1_83",
+    "featured": false
+  },
+  {
+    "title": "Land Use Characterization in Peri-Urban Areas of Khulna towards an Eco-Sustainable Metropolitan Region",
+    "authors": "Ekram, K. M., Barua, G., & Uddin, M.",
+    "venue": "Journal of Engineering Science",
+    "year": 2018,
+    "status": "Published",
+    "url": "https://www.researchgate.net/profile/Khondaker-Mohammed-Mohiuddin-Ekram/publication/349412531_LAND_USE_CHARACTERIZATION_IN_PERI-URBAN_AREAS_OF_KHULNA_TOWARDS_AN_ECO-SUSTAINABLE_METROPOLITAN_REGION/links/602eb05d92851c4ed5803e9e/LAND-USE-CHARACTERIZATION-IN-PERI-URBAN-AREAS-OF-KHULNA-TOWARDS-AN-ECO-SUSTAINABLE-METROPOLITAN-REGION.pdf",
+    "featured": false
+  },
+  {
+    "title": "A Conceptual Model of Reusing the Paper Wastes Generated from the Universities",
+    "authors": "Barua, G., & Ekram, K. M.",
+    "venue": "International Journal of Applied Engineering Research",
+    "year": 2014,
+    "status": "Published",
+    "url": "https://www.researchgate.net/profile/Khondaker-Mohammed-Mohiuddin-Ekram/publication/291091421_A_conceptual_model_of_reusing_the_paper_wastes_generated_from_the_universities/links/602eb262299bf1cc26d64bb7/A-conceptual-model-of-reusing-the-paper-wastes-generated-from-the-universities.pdf",
+    "featured": false
+  },
+  {
+    "title": "Feature-based Transfer Learning with Pretrained AlphaEarth Embeddings for Mangrove Forest Mapping in Bangladesh",
+    "authors": "Islam, K.M.A., Barua, G., Rahman, M.T., Kennedy, R.",
+    "venue": "Discover Forests",
+    "year": 2025,
+    "status": "In Review",
+    "url": "https://ssrn.com/abstract=6168728",
+    "featured": true
+  },
+  {
+    "title": "Single-date LiDAR acquisition accurately predicts the yield of Pinus taeda (L.) over a 7-year timespan using machine learning",
+    "authors": "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M.",
+    "venue": "Journal of Forestry Research",
+    "year": 2025,
+    "status": "In Review",
+    "url": "",
+    "featured": false
+  }
+]

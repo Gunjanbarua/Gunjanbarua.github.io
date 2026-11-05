@@ -1,0 +1,89 @@
+[
+  {
+    "id": "work-methodologies",
+    "context": "Verra · 2026–present",
+    "title": "Digitalizing carbon methodologies",
+    "challenge": "Carbon methodologies live in long technical documents, which makes project design, calculation and review slow and error-prone.",
+    "did": [
+      "Translate nature-based carbon methodologies into digital policies and calculation logic across <a href=\"https://verra.org/verra-project-hub/\" target=\"_blank\" rel=\"noopener\">Verra Project Hub</a> and the <a href=\"https://atlas.xeptagon.com/registries/204?network=mainnet\" target=\"_blank\" rel=\"noopener\">Guardian platform</a> (Hedera).",
+      "Lead testing and release, from requirements through QA, UAT and production.",
+      "Write API documentation and developer guides so project developers can submit data directly."
+    ],
+    "outcome": [
+      "Six methodology policies taken through to release on the Guardian platform, spanning agriculture, afforestation, forest management and blue carbon.",
+      "Calculation-logic corrections that protect the accuracy of credit outcomes."
+    ],
+    "tags": [
+      "Digital MRV",
+      "Carbon methodologies",
+      "APIs",
+      "Platform QA"
+    ]
+  },
+  {
+    "id": "work-dsp",
+    "context": "Verra · 2026–present",
+    "title": "Connecting remote-sensing data providers to a carbon registry",
+    "challenge": "Forest carbon projects increasingly rely on satellite-derived data, but that data has to flow into the registry in a consistent and auditable way.",
+    "did": [
+      "Lead technical onboarding of data service providers for the improved forest management methodology (VM0047), from API specification to production integration.",
+      "Map provider outputs to methodology inputs and review integration results.",
+      "Wrote the product requirements for a public directory of vetted data providers."
+    ],
+    "outcome": [
+      "11 Data Service Providers integrated and announced.",
+      "<a href=\"https://projecthub.verra.org/documentation/dsp\" target=\"_blank\" rel=\"noopener\">Public provider directory</a> live on Verra Project Hub; co-hosted the <a href=\"https://drive.google.com/file/d/13k5qC1P2xEddLtcRrTechgEukWXhINlw/view?referrer=luma\" target=\"_blank\" rel=\"noopener\">VM0047 onboarding webinar</a> with Hashgraph."
+    ],
+    "tags": [
+      "Data integration",
+      "Product requirements",
+      "Earth observation",
+      "Ecosystem building"
+    ]
+  },
+  {
+    "id": "work-carbobon",
+    "context": "CarboBon · 2023–2025",
+    "title": "End-to-end digital MRV for forest protection",
+    "challenge": "Forest protection projects needed continuous, credible monitoring rather than infrequent field audits.",
+    "did": [
+      "Designed a machine-learning and remote-sensing MRV system for near-real-time forest monitoring.",
+      "Led research on new AI and remote-sensing methodologies.",
+      "Built an API for calculating corporate Scope 1 and Scope 2 emissions."
+    ],
+    "outcome": [
+      "Contributed to Bangladesh's first carbon credit marketplace."
+    ],
+    "tags": [
+      "dMRV",
+      "GHG accounting",
+      "Machine learning",
+      "Startup"
+    ],
+    "titleUrl": "https://www.carbobon.com/"
+  },
+  {
+    "id": "work-research",
+    "context": "Virginia Tech · Forest Productivity Cooperative · 2023–2026",
+    "title": "From research to product: AI yield forecasting",
+    "challenge": "Forest managers needed faster, scalable yield estimates than repeated field inventories can provide.",
+    "did": [
+      "Built machine-learning models that predict loblolly pine yield from UAV-LiDAR, SAR and optical satellite data.",
+      "Tested how well the models transfer across sites and over time.",
+      "Packaged the dissertation as an interactive dashboard."
+    ],
+    "outcome": [
+      "Peer-reviewed results in <em>Forest Ecology and Management</em>, <em>International Journal of Remote Sensing</em> and <em>Journal of Forestry</em>; invited talks to industry (Weyerhaeuser) and research cooperatives."
+    ],
+    "button": {
+      "label": "Explore the dissertation dashboard",
+      "href": "https://gunjan-phd-dissertation.streamlit.app/"
+    },
+    "tags": [
+      "LiDAR",
+      "SAR",
+      "Machine learning",
+      "Forestry"
+    ]
+  }
+]

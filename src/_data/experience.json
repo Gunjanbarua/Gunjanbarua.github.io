@@ -1,0 +1,183 @@
+{
+  "recent": [
+    {
+      "title": "Digital MRV Solutions Specialist, Technology Solutions",
+      "org": "Verra",
+      "period": "Jun 2026 – Present",
+      "location": "Remote",
+      "bullets": [
+        "Digitalize nature-based carbon methodologies across Verra Project Hub and the Guardian platform, from requirements and calculation logic to testing and release.",
+        "Lead technical onboarding of remote-sensing data service providers, from API specification to production integration.",
+        "Write API documentation and developer guides for Verra's digital MRV API.",
+        "Contribute to the digital implementation of updated VCS Program templates and Verra's Scope 3 standard work."
+      ],
+      "orgUrl": "https://verra.org"
+    },
+    {
+      "title": "Graduate Research Assistant, Forest Resources & Environmental Conservation",
+      "org": "Virginia Tech",
+      "period": "Aug 2023 – May 2026",
+      "bullets": [
+        "Built AI/ML frameworks combining optical and SAR satellite data with airborne and UAV LiDAR to predict loblolly pine yield across the Southeast U.S., in partnership with the Forest Productivity Cooperative.",
+        "Assessed model generalizability and transferability across sites and years."
+      ]
+    },
+    {
+      "title": "Technical Advisor",
+      "org": "CarboBon",
+      "period": "May 2023 – Oct 2025",
+      "bullets": [
+        "Built a machine-learning and remote-sensing MRV system for real-time forest monitoring, contributing to Bangladesh's first carbon credit marketplace.",
+        "Developed an API for corporate Scope 1 and Scope 2 emissions calculation."
+      ]
+    },
+    {
+      "title": "Summer Research Assistant",
+      "org": "Forest Productivity Cooperative & Michigan State University",
+      "period": "May – Aug 2025",
+      "bullets": [
+        "Built AI automation that converts handwritten forestry field sheets into structured data, and a receipt-extraction assistant for accounting."
+      ]
+    }
+  ],
+  "earlierSummary": "Program and portfolio management in Bangladesh's development sector (over US$850K across portfolios), followed by research, teaching and GIS development at Virginia Tech.",
+  "earlier": [
+    {
+      "title": "Instructor, Advanced Remote Sensing",
+      "org": "Virginia Tech, Geography",
+      "period": "Aug 2021 – Dec 2022",
+      "description": "Served as Instructor for Advanced Remote Sensing across three semesters (Fall 2021, Spring 2022, and Fall 2022) with a total enrollment of 232 students. Responsible for teaching and supervising lab sessions, grading assignments, consulting on class projects, holding office hours, and designing and conducting course assessments."
+    },
+    {
+      "title": "Graduate Teaching Assistant",
+      "org": "Virginia Tech, Geography",
+      "period": "Jan 2021 – Dec 2022",
+      "description": "Supported courses including Geography of Wine (Spring 2021), Advanced Geovisualization (Spring 2022), and Advanced Analysis in GIS (Fall 2022) for over 700 combined students. Led weekly lab sessions, held office hours, graded coursework, and consulted with students on class projects."
+    },
+    {
+      "title": "Graduate Researcher",
+      "org": "Virginia Tech, Near Earth Imaging Lab, Geography",
+      "period": "Jan 2021 – Feb 2023",
+      "description": "Collected thermal data using UAVs and applied photogrammetry to build high-resolution thermal models. Developed a new thermal visualization method by combining optical satellite imagery and LiDAR data to create shaded thermal images. Conducted a perception study using PsychoPy and analyzed experimental data using Python and JMP."
+    },
+    {
+      "title": "Research Assistant",
+      "org": "Virginia Tech, Forest Resources & Environmental Conservation",
+      "period": "Jan 2023 – Jul 2023",
+      "description": "Explored and analyzed airborne LiDAR data and satellite imagery to understand complex forest structures. Applied geospatial analysis and machine learning methods to analyze forest productivity."
+    },
+    {
+      "title": "Summer Research Assistant",
+      "org": "Virginia Tech, Forest Resources & Environmental Conservation",
+      "period": "May 2022 – Aug 2022",
+      "description": "Determined forest productivity based on bedding orientation using LiDAR data and Google Earth Engine. Produced a scalable product accompanied by a detailed protocol, along with Python and JavaScript code."
+    },
+    {
+      "title": "Summer Research Assistant",
+      "org": "Virginia Tech, School of Public and International Affairs",
+      "period": "May 2021 – Aug 2021",
+      "description": "Collected and processed thermal drone data across multiple locations in Blacksburg and Roanoke, VA. Built high-resolution thermal models to analyze and understand communities’ heating experiences at a small scale."
+    },
+    {
+      "title": "GIS Developer Intern",
+      "org": "GFR Forestry Consultants PLLC",
+      "period": "May 2023 – Aug 2023",
+      "description": "Revised and updated the company's forest and business operation dashboards, optimizing them on ArcOnline for improved efficiency and usability. Pioneered workflow automation by integrating Survey123, Microsoft Power Automate, and ArcOnline maps to streamline tasks. Improved the structure and performance of hosted layer databases in ArcOnline using the ArcGIS API for Python."
+    },
+    {
+      "title": "Policy Advocacy Specialist",
+      "org": "Municipal Association of Bangladesh",
+      "period": "Jun 2018 – Nov 2020",
+      "description": "Managed a $350,000 portfolio and oversaw the field implementation of project activities, facilitating capacity building for municipality staff. Maintained liaisons with the Local Government Engineering Department and key stakeholders to draft a national WASH action plan and prepare a 10-year sanitation strategy for five municipalities."
+    },
+    {
+      "title": "Documentation Officer",
+      "org": "Practical Action, Bangladesh",
+      "period": "Sep 2016 – Jun 2018",
+      "description": "Managed a $500,000 communications portfolio, pitched advocacy agendas, and prepared comprehensive communications and campaign plans. Coordinated social mobilization, BCC campaigns, and project report writing, while producing policy briefs and data visualizations. Conducted research for policy analysis and business development."
+    },
+    {
+      "title": "Freelance GIS Analyst",
+      "org": "Elance-Odesk",
+      "period": "May 2015 – Jun 2016",
+      "description": "Prepared maps based on spatial analysis and geospatial data, and conducted topological, hydrological, and transportation modeling. Authored research reports and conducted targeted spatial analysis for the utilities, health services, real estate, and transportation industries."
+    },
+    {
+      "title": "Intern",
+      "org": "Asian Disaster Preparedness Center",
+      "period": "May 2015 – Jun 2015",
+      "description": "Conducted spatial analysis for a large geo-database and prepared a research report on the social vulnerability index. Drafted a comprehensive report for an earthquake research project focused on Dhaka city."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D., Geospatial & Environmental Analysis",
+      "institution": "Virginia Tech",
+      "year": "2026"
+    },
+    {
+      "degree": "M.S., Geography",
+      "institution": "Virginia Tech",
+      "year": "2023"
+    },
+    {
+      "degree": "Graduate Certificate, Geospatial Information Technology",
+      "institution": "Virginia Tech",
+      "year": "2022"
+    },
+    {
+      "degree": "Bachelor in Urban & Regional Planning",
+      "institution": "KUET, Bangladesh",
+      "year": "2016"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Product & platforms",
+      "items": [
+        "Product requirements",
+        "API design & documentation",
+        "Swagger / OpenAPI",
+        "Postman",
+        "QA/UAT testing",
+        "Guardian (Hedera)",
+        "Stakeholder & partner onboarding"
+      ]
+    },
+    {
+      "group": "Carbon & GHG",
+      "items": [
+        "VCS Program",
+        "Nature-based methodologies (AFOLU)",
+        "Digital MRV",
+        "GHG accounting (Scope 1–3)"
+      ]
+    },
+    {
+      "group": "Earth observation & AI",
+      "items": [
+        "LiDAR",
+        "SAR",
+        "Optical/multispectral",
+        "Google Earth Engine",
+        "Random Forest",
+        "SVR",
+        "XGBoost / LightGBM",
+        "LSTM/GRU",
+        "Spatiotemporal clustering"
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        "Python",
+        "R",
+        "SQL",
+        "Git/GitHub",
+        "ArcGIS Pro",
+        "Streamlit",
+        "Jupyter"
+      ]
+    }
+  ]
+}
