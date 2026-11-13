@@ -47,5 +47,14 @@
       </ul>
       <button class="toggle" type="button" data-toggle="#awards-block" data-more="Show all awards ({{ awards | length }})" data-less="Show fewer awards" aria-expanded="false">Show all awards ({{ awards | length }})</button>
     </div>
+
+    <h3 class="sub-title">Certifications &amp; service</h3>
+    <ul class="dots">
+      {%- for c in service.certifications %}
+      <li><strong>Certification:</strong> {{ c }}</li>
+      {%- endfor %}
+      <li><strong>Peer review:</strong> {{ service.reviewer }}</li>
+      <li><strong>Affiliations:</strong> {{ service.affiliations | join(" · ") }}</li>
+    </ul>
   </div>
 </section>

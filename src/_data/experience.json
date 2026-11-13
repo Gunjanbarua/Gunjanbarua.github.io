@@ -27,7 +27,7 @@
       "org": "CarboBon",
       "period": "May 2023 – Oct 2025",
       "bullets": [
-        "Built a machine-learning and remote-sensing MRV system for real-time forest monitoring, contributing to Bangladesh's first carbon credit marketplace.",
+        "Built a machine-learning and remote-sensing MRV system for real-time forest monitoring.",
         "Developed an API for corporate Scope 1 and Scope 2 emissions calculation."
       ]
     },
@@ -150,9 +150,10 @@
     {
       "group": "Earth observation & AI",
       "items": [
-        "LiDAR",
+        "UAV & airborne LiDAR",
         "SAR",
         "Optical/multispectral",
+        "Hyperspectral",
         "Google Earth Engine",
         "Random Forest",
         "SVR",
@@ -180,8 +181,13 @@
         "Python",
         "R",
         "SQL",
+        "scikit-learn",
+        "TensorFlow",
+        "GeoPandas",
+        "GDAL",
         "Git/GitHub",
         "ArcGIS Pro",
+        "QGIS",
         "Streamlit",
         "Jupyter"
       ]
