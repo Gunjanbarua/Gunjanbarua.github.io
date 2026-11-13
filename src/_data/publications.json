@@ -21,7 +21,7 @@
     "title": "Static Maps, Dynamic Threats: Re-evaluating U.S. Wildfire Risk with Spatiotemporal Clustering",
     "authors": "Barua, G., Pires, M., Kim, J.",
     "venue": "Natural Hazards",
-    "year": 2025,
+    "year": 2026,
     "status": "Published",
     "url": "https://link.springer.com/article/10.1007/s11069-026-08129-2",
     "featured": true
@@ -30,7 +30,7 @@
     "title": "Precision Forestry: Using Artificial Intelligence and LiDAR to inform thinning in Pinus taeda plantations – a case study",
     "authors": "Platt, E., Carter, D., Albaugh, T.J., Cook, R.L., Campoe, O., Rubilar, R., Barua, G., Sumnall, M.J.",
     "venue": "Journal of Forestry",
-    "year": 2025,
+    "year": 2026,
     "status": "Published",
     "url": "https://link.springer.com/article/10.1007/s44392-026-00089-6",
     "featured": true
@@ -75,17 +75,17 @@
     "title": "Feature-based Transfer Learning with Pretrained AlphaEarth Embeddings for Mangrove Forest Mapping in Bangladesh",
     "authors": "Islam, K.M.A., Barua, G., Rahman, M.T., Kennedy, R.",
     "venue": "Discover Forests",
-    "year": 2025,
-    "status": "In Review",
+    "year": null,
+    "status": "In review",
     "url": "https://ssrn.com/abstract=6168728",
     "featured": true
   },
   {
     "title": "Single-date LiDAR acquisition accurately predicts the yield of Pinus taeda (L.) over a 7-year timespan using machine learning",
     "authors": "Barua, G., Carter, D., Thomas, V., Green, P.C., Radtke, P., Pingel, T.J., Cook, R.L., Albaugh, T., Rubilar, R., Campoe, O., Sumnall, M.",
-    "venue": "Journal of Forestry Research",
-    "year": 2025,
-    "status": "In Review",
+    "venue": "Natural Resource Modeling",
+    "year": null,
+    "status": "In review",
     "url": "",
     "featured": false
   }

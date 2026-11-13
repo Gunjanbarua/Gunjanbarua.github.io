@@ -26,12 +26,12 @@
     "title": "Connecting remote-sensing data providers to a carbon registry",
     "challenge": "Forest carbon projects increasingly rely on satellite-derived data, but that data has to flow into the registry in a consistent and auditable way.",
     "did": [
-      "Lead technical onboarding of data service providers for the improved forest management methodology (VM0047), from API specification to production integration.",
+      "Lead onboarding of remote-sensing data service providers for Verra's afforestation, reforestation and revegetation methodology (VM0047), from administrative onboarding to API integration, testing and troubleshooting.",
       "Map provider outputs to methodology inputs and review integration results.",
       "Wrote the product requirements for a public directory of vetted data providers."
     ],
     "outcome": [
-      "11 Data Service Providers integrated and announced.",
+      "12+ data service providers in onboarding and integration.",
       "<a href=\"https://projecthub.verra.org/documentation/dsp\" target=\"_blank\" rel=\"noopener\">Public provider directory</a> live on Verra Project Hub; co-hosted the <a href=\"https://drive.google.com/file/d/13k5qC1P2xEddLtcRrTechgEukWXhINlw/view?referrer=luma\" target=\"_blank\" rel=\"noopener\">VM0047 onboarding webinar</a> with Hashgraph."
     ],
     "tags": [

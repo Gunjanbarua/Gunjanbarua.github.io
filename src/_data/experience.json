@@ -6,17 +6,17 @@
       "period": "Jun 2026 – Present",
       "location": "Remote",
       "bullets": [
-        "Digitalize nature-based carbon methodologies across Verra Project Hub and the Guardian platform, from requirements and calculation logic to testing and release.",
-        "Lead technical onboarding of remote-sensing data service providers, from API specification to production integration.",
-        "Write API documentation and developer guides for Verra's digital MRV API.",
-        "Contribute to the digital implementation of updated VCS Program templates and Verra's Scope 3 standard work."
+        "Build and lead onboarding of remote-sensing data service providers under VM0047, from administrative onboarding to API integration, testing and troubleshooting, with 12+ providers in onboarding and integration.",
+        "Took six AFOLU methodology policies to release on Verra's Guardian (Hedera) platform, and scoped and tested methodology updates on Verra Project Hub.",
+        "Translated VCS v5.0 templates into developer requirements and designed the calculation-engine flow for grouped projects; contributed to the template for Verra's Scope 3 standard.",
+        "Wrote requirements for the public data-provider directory and authored API documentation and developer guides for Verra's digital MRV API."
       ],
       "orgUrl": "https://verra.org"
     },
     {
       "title": "Graduate Research Assistant, Forest Resources & Environmental Conservation",
       "org": "Virginia Tech",
-      "period": "Aug 2023 – May 2026",
+      "period": "Jan 2023 – May 2026",
       "bullets": [
         "Built AI/ML frameworks combining optical and SAR satellite data with airborne and UAV LiDAR to predict loblolly pine yield across the Southeast U.S., in partnership with the Forest Productivity Cooperative.",
         "Assessed model generalizability and transferability across sites and years."
@@ -59,12 +59,6 @@
       "org": "Virginia Tech, Near Earth Imaging Lab, Geography",
       "period": "Jan 2021 – Feb 2023",
       "description": "Collected thermal data using UAVs and applied photogrammetry to build high-resolution thermal models. Developed a new thermal visualization method by combining optical satellite imagery and LiDAR data to create shaded thermal images. Conducted a perception study using PsychoPy and analyzed experimental data using Python and JMP."
-    },
-    {
-      "title": "Research Assistant",
-      "org": "Virginia Tech, Forest Resources & Environmental Conservation",
-      "period": "Jan 2023 – Jul 2023",
-      "description": "Explored and analyzed airborne LiDAR data and satellite imagery to understand complex forest structures. Applied geospatial analysis and machine learning methods to analyze forest productivity."
     },
     {
       "title": "Summer Research Assistant",
@@ -126,7 +120,7 @@
       "year": "2022"
     },
     {
-      "degree": "Bachelor in Urban & Regional Planning",
+      "degree": "Bachelor of Urban and Regional Planning",
       "institution": "KUET, Bangladesh",
       "year": "2016"
     }
@@ -165,6 +159,19 @@
         "XGBoost / LightGBM",
         "LSTM/GRU",
         "Spatiotemporal clustering"
+      ]
+    },
+    {
+      "group": "Generative AI & automation",
+      "items": [
+        "AI workflow & agent design",
+        "Claude & Claude Code",
+        "Microsoft 365 Copilot",
+        "Gemini",
+        "Prompt & context engineering",
+        "AI-assisted debugging & API validation",
+        "LLM document extraction",
+        "Human-in-the-loop verification"
       ]
     },
     {

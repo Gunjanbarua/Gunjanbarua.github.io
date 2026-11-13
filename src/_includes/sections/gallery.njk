@@ -9,7 +9,7 @@
           <img src="{{ g.src | url }}" alt="{{ g.alt }}" width="{{ g.width }}" height="{{ g.height }}" loading="lazy" />
         </button>
         <a href="{{ g.src | url }}" target="_blank" rel="noopener"><img src="{{ g.src | url }}" alt="{{ g.alt }}" width="{{ g.width }}" height="{{ g.height }}" loading="lazy" /></a>
-        <figcaption>{{ g.caption }}{% if g.year %} · {{ g.year }}{% endif %}</figcaption>
+        <figcaption>{{ g.caption }}{% if g.year and (g.caption | string).indexOf(g.year | string) == -1 %} · {{ g.year }}{% endif %}</figcaption>
       </figure>
       {%- endfor %}
     </div>

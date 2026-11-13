@@ -4,3 +4,6 @@ _site/
 Thumbs.db
 *.log
 .env
+
+# Private resume - never commit
+resume_gunjan_2026.pdf
